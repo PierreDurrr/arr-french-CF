@@ -1,0 +1,51 @@
+{
+  "name": "TRUEFRENCH",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "VFF",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(TRUEFRENCH|VFF)\\b"
+      }
+    },
+    {
+      "name": "VFI",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(VFI)\\b"
+      }
+    },
+    {
+      "name": "VF2",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(VF2)\\b"
+      }
+    },
+    {
+      "name": "Both VFF and VFQ",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(VF(F|Q)[ .]VF(F|Q))\\b"
+      }
+    },
+    {
+      "name": "VOF",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(VOF)\\b"
+      }
+    }
+  ]
+}
